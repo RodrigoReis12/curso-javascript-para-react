@@ -1,4 +1,6 @@
 .vs-player {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+    color: var(--color-sandstorm);
+    font-size: 0.8em;
 }
