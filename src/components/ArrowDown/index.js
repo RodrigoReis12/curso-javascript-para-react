@@ -1,6 +1,8 @@
-function ArrowDown() {
+import "./style.css";
+
+function ArrowDown(currentPlayer = 1) {
     return/*html*/ `
-    <img src="src/components/images/IconArrowDown.png" alt="Icone Seta">
+    <img class="arrow-down" data-currentPlayer = "${currentPlayer}" src="src/components/images/IconArrowDown.png" alt="Icone Seta">
     `;
 }
 
